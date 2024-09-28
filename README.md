@@ -1,55 +1,106 @@
-# Data Scientist
+# Data Analyst 
+📞 +62 813 1923 4830  |  📧 [adedwiaryan@gmail.com](mailto:adedwiaryan@gmail.com)  
+[LinkedIn](https://linkedin.com/in/ade-dwi-aryani)  |  [GitHub](https://github.com/adedwiary)  |  Bekasi, Indonesia  
 
-#### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
+---
+
+## About Me
+I am an analytical thinker and skilled data analyst with a passion for turning complex datasets into actionable insights. As a Research Assistant at **Bank Indonesia**, I analyzed loan provisioning policies for small banks using **Stata** and **Generalized Method of Moments (GMM)**, providing strategic recommendations for effective fund management. I researched credit supply decisions in relation to factors like interest rates and economic structure, ensuring data accuracy and visual clarity through **Python**, **R**, **MySQL**, and **Tableau**. I am committed to using data-driven insights to drive impactful decisions and contribute to organizational success.
+
+---
 
 ## Education
-- Ph.D., Physics | The University of Texas at Dallas (_May 2022_)								       		
-- M.S., Physics	| The University of Texas at Dallas (_December 2019_)	 			        		
-- B.S., Physics | The University of Texas at Dallas (_May 2017_)
+
+### **RevoU**  
+**Full-stack Data Analytics**  
+_Jun 2024 – Sept 2024_  
+- Completed an intensive 3-month program focusing on **statistics**, **SQL**, **data visualization**, and **machine learning**.  
+- Final Project: Applied **linear regression** and **K-Means clustering** to analyze customer behavior and cancellation rates, achieving a perfect score of 100/100.
+
+### **Hacktiv8 Indonesia**  
+**Full-Time Data Science Bootcamp**  
+_Jan 2022 – Apr 2022_  
+- Acquired hands-on skills in **Python**, **GitHub**, and **machine learning** using **Scikit-Learn** and **TensorFlow**.  
+- Analyzed **Big Data** and collaborated on real-world projects. Final score: **89/100**.
+
+### **IPB University**  
+**Bachelor of Economics (Cum Laude)**  
+_Sept 2015 – Oct 2019_  
+- GPA: **3.56/4.00**  
+- Thesis: "The Effect of Income and Food Prices on Staple Food Consumption Diversification in Indonesia."
+
+---
 
 ## Work Experience
-**Data Scientist @ Toyota Financial Services (_June 2022 - Present_)**
-- Uncovered and corrected missing step in production data pipeline which impacted over 70% of active accounts
-- Redeveloped loan originations model which resulted in 50% improvement in model performance and saving 1 million dollars in potential losses
 
-**Data Science Consultant @ Shawhin Talebi Ventures LLC (_December 2020 - Present_)**
-- Conducted data collection, processing, and analysis for novel study evaluating the impact of over 300 biometrics variables on human performance in hyper-realistic, live-fire training scenarios
-- Applied unsupervised deep learning approaches to longitudinal ICU data to discover novel sepsis sub-phenotypes
+### **Research Assistant** | Bank Indonesia  
+_May 2022 – Present_  
+- Conducted data collection, cleaning, and visualization across projects, ensuring dataset precision and integrity.  
+- Authored 2 published studies and contributed to 1 ongoing project in **banking** and **mineral industries**.  
+- **Key Contributions**:
+  - Analyzed data from 117 banks for research on **loan loss provisioning**, improving regulatory frameworks.  
+  - Conducted **cost-benefit analysis** for critical mineral industries, guiding investment decisions.  
+  - Evaluated **credit supply factors**, supporting policymakers with actionable insights.  
+  - Authored an article on **financial inclusion**, generating over 32,000 hits and sparking policy discussions.
 
-## Projects
-### Data-Driven EEG Band Discovery with Decision Trees
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
+### **Research Assistant** | CT Corp  
+_Mar 2020 – Dec 2021_  
+- Delivered actionable insights from comprehensive economic research in **trade** and **public sectors**.  
+- Presented findings to executives, improving **decision-making** and **strategic planning**.  
+- Led webinars to support over 200 MSMEs during the **COVID-19** pandemic.
 
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
+---
 
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
+## Project Experience
 
-### Decoding Physical and Cognitive Impacts of Particulate Matter Concentrations at Ultra-Fine Scales
-[Publication](https://www.mdpi.com/1424-8220/22/11/4240)
+### **Hotel Booking Analysis: Strategies to Reduce Cancellations** | RevoU  
+_Aug 2024 – Sept 2024_  
+- Deployed **logistic regression** to reduce cancellation rates from 36% to 22%.  
+- Implemented **K-Means clustering** for customer segmentation, increasing engagement by 15%.  
+- Created a **Tableau dashboard** for real-time decision-making.
 
-Used **Matlab** to train over 100 machine learning models which estimated particulate matter concentrations based on a suite of over 300 biometric variables. We found biometric variables can be used to accurately estimate particulate matter concentrations at ultra-fine spatial scales with high fidelity (r2 = 0.91) and that smaller particles are better estimated than larger ones. Inferring environmental conditions solely from biometric measurements allows us to disentangle key interactions between the environment and the body.
+### **Sales Performance & Customer Insights Dashboard** | RevoU  
+_Aug 2024_  
+- Developed an interactive dashboard using **Tableau** to summarize 36 months of sales data for **WishfulBazaar**.  
+- Identified user personas based on sales behavior, improving customer engagement.
 
-![Bike Study](/assets/img/bike_study.jpeg)
+### **Optimizing The Look E-commerce: SQL Insights** | RevoU  
+_Jul 2024_  
+- Analyzed **revenue trends** using **SQL** to identify underperforming product categories.  
+- Conducted **inventory growth analysis**, adjusting procurement strategies to boost resource allocation.
 
-## Talks & Lectures
-- Causality: The new science of an old question - GSP Seminar, Fall 2021
-- Guest Lecture: Dimensionality Reduction - Big Data and Machine Learning for Scientific Discovery (PHYS 5336), Spring 2021
-- Guest Lecture: Fourier and Wavelet Transforms - Scientific Computing (PHYS 5315), Fall 2020
-- A Brief Introduction to Optimization - GSP Seminar, Fall 2019
-- Weeks of Welcome Poster Competition - UTD, Fall 2019
-- A Brief Introduction to Networks - GSP Seminar, Spring 2019
+### **COFER: Content Category & Fake User Identifier** | Hacktiv8 Indonesia  
+_Mar 2022 – Apr 2022_  
+- Developed a machine learning model to classify Instagram accounts, achieving **96% accuracy** for fake user detection.  
+- Deployed the model using **Streamlit** and **Heroku** for real-time classification.
 
-- [Data Science YouTube](https://www.youtube.com/channel/UCa9gErQ9AE5jT2DZLjXBIdA)
+---
 
 ## Publications
-1. Talebi S., Lary D.J., Wijeratne L. OH., and Lary, T. Modeling Autonomic Pupillary Responses from External Stimuli Using Machine Learning (2019). DOI: 10.26717/BJSTR.2019.20.003446
-2. Wijeratne, L.O.; Kiv, D.R.; Aker, A.R.; Talebi, S.; Lary, D.J. Using Machine Learning for the Calibration of Airborne Particulate Sensors. Sensors 2020, 20, 99.
-3. Lary, D.J.; Schaefer, D.; Waczak, J.; Aker, A.; Barbosa, A.; Wijeratne, L.O.H.; Talebi, S.; Fernando, B.; Sadler, J.; Lary, T.; Lary, M.D. Autonomous Learning of New Environments with a Robotic Team Employing Hyper-Spectral Remote Sensing, Comprehensive In-Situ Sensing and Machine Learning. Sensors 2021, 21, 2240. https://doi.org/10.3390/s21062240
-4. Zhang, Y.; Wijeratne, L.O.H.; Talebi, S.; Lary, D.J. Machine Learning for Light Sensor Calibration. Sensors 2021, 21, 6259. https://doi.org/10.3390/s21186259
-5. Talebi, S.; Waczak, J.; Fernando, B.; Sridhar, A.; Lary, D.J. Data-Driven EEG Band Discovery with Decision Trees. Preprints 2022, 2022030145 (doi: 10.20944/preprints202203.0145.v1).
-6. Fernando, B.A.; Sridhar, A.; Talebi, S.; Waczak, J.; Lary, D.J. Unsupervised Blink Detection Using Eye Aspect Ratio Values. Preprints 2022, 2022030200 (doi: 10.20944/preprints202203.0200.v1).
-7. Talebi, S. et al. Decoding Physical and Cognitive Impacts of PM Concentrations at Ultra-fine Scales, 29 March 2022, PREPRINT (Version 1) available at Research Square [https://doi.org/10.21203/rs.3.rs-1499191/v1]
-8. Lary, D.J. et al. (2022). Machine Learning, Big Data, and Spatial Tools: A Combination to Reveal Complex Facts That Impact Environmental Health. In: Faruque, F.S. (eds) Geospatial Technology for Human Well-Being and Health. Springer, Cham. https://doi.org/10.1007/978-3-030-71377-5_12
-9. Wijerante, L.O.H. et al. (2022). Advancement in Airborne Particulate Estimation Using Machine Learning. In: Faruque, F.S. (eds) Geospatial Technology for Human Well-Being and Health. Springer, Cham. https://doi.org/10.1007/978-3-030-71377-5_13
 
-- [Data Science Blog](https://medium.com/@shawhin)
+1. **Critical Minerals Industries in Indonesia: A Firm-Level Perspective**  
+   _Working Papers WP/05/2023, Bank Indonesia_  
+   - Analyzed the economic feasibility of **nickel** and **copper** industries using **Internal Rate of Return (IRR)** and **Net Present Value (NPV)** methodologies.  
+
+2. **Bank Loan Loss Provisioning and Procyclicality Revisited: Evidence from Indonesia**  
+   _Working Papers WP/02/2022, Bank Indonesia_  
+   - Investigated the effects of **discretionary** and **non-discretionary** provisioning on bank loan growth, using **panel data** from 117 banks.
+
+---
+
+## Skills
+
+### **Technical Skills**  
+- **Programming Languages**: Python, R, SQL  
+- **Tools**: Stata, Tableau, MS Excel, RStudio  
+- **Software**: MS Office, Canva  
+
+### **Soft Skills**  
+- Analytical Thinking, Collaboration, Communication, Problem-Solving
+
+---
+
+## Certifications
+1. **Full Stack Data Analytics** – RevoU (Oct 2024)  
+2. **Machine Learning in e-Commerce** – DQLab (Jan 2023)  
+3. **Full-Time Data Science** – Hacktiv8 Indonesia (Apr 2022)
