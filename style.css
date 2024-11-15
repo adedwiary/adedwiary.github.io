@@ -238,36 +238,40 @@ p:last-child {
 .btn--default, .btn--primary {
     display: inline-block;
     padding: 16px 30px 15px 29px;
-    color: #fff;
-    border: 2px solid transparent;
+    color: transparent; /* Transparent text color */
+    border: 2px solid #303030; /* Border #303030 */
     border-radius: 0;
     font-size: 18px;
     line-height: 22px;
     font-weight: 700;
+    background-color: #303030; /* Background color #303030 */
+    text-decoration: none; /* Remove underline from the button */
+    transition: all 0.3s ease; /* Smooth transition for changes */
 }
 
+/* Button with .btn--default class */
+.btn--default {
+    color: transparent; /* Transparent text */
+    border-color: #303030; /* Border #303030 */
+    background-color: #303030; /* Background #303030 */
+}
+
+/* Button with .btn--primary class */
+.btn--primary {
+    color: transparent; /* Transparent text */
+    border-color: #303030; /* Border #303030 */
+    background-color: #303030; /* Background #303030 */
+}
+
+/* Hover effect for both buttons */
 .btn--default:hover, .btn--primary:hover,
 .btn--default:focus, .btn--primary:focus {
-    color: #fff;
+    color: #303030; /* Text color becomes #303030 */
+    background-color: transparent; /* Background becomes transparent */
+    border-color: #303030; /* Border stays #303030 */
     box-shadow: none;
     text-decoration: none;
     outline: 0;
-}
-
-.btn--default {
-    color: #303030;
-    border-color: #303030;
-    background-color: transparent;
-}
-
-.btn--default:hover,
-.btn--default:focus {
-    color: #303030;
-}
-
-.btn--primary {
-    border-color: #303030;
-    background-color: #303030;
 }
 
 /* 1.6. DATEPICKER */
@@ -606,7 +610,7 @@ body.scrolled .header--navbar {
 
 /* 3.1. BANNER CONTENT */
 .banner--content {
-    width: 40%;
+    width:40%;
     color: #303030;
 }
 
@@ -633,22 +637,8 @@ body.scrolled .header--navbar {
     outline: 0;
 }
 
-/* 3.1.1. BUTTON IN BANNER */
 .banner--content .btn--default {
     margin-top: 22px;
-    color: transparent; /* Font color is transparent */
-    background-color: black; /* Background color is black */
-    border: 2px solid black; /* Border color is black */
-    padding: 12px 24px; /* Adjust padding for better button size */
-    text-decoration: none; /* Remove underline from link */
-    display: inline-block; /* Ensures proper box model */
-    transition: all 0.3s ease; /* Smooth transition for color changes */
-}
-
-/* Hover effect for button */
-.banner--content .btn--default:hover {
-    color: black; /* Font color turns black on hover */
-    background-color: transparent; /* Background turns transparent on hover */
 }
 
 /*------------------------------------*\
