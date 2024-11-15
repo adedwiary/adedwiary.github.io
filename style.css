@@ -1417,9 +1417,9 @@ body.scrolled .header--navbar {
 /* 11.1. CONTACT ADDRESS */
 .contact--address h2 {
     position: relative;
-    margin: 0 0 30px;
+    margin: 0 0 15px; /* Reduce bottom margin */
     font-weight: 700;
-    padding-bottom: 21px;
+    padding-bottom: 15px; /* Reduce bottom padding */
     font-size: 26px;
 }
 
@@ -1433,7 +1433,7 @@ body.scrolled .header--navbar {
 .contact--address h2:before {
     bottom: 0;
     width: 100px;
-    padding: 4px 0 5px;
+    padding: 2px 0 3px; /* Reduce padding */
     border-style: solid;
     border-width: 1px 0;
     border-color: #737373;
@@ -1447,11 +1447,11 @@ body.scrolled .header--navbar {
 }
 
 .contact--address address {
-    margin-bottom: 0;
+    margin-bottom: 10px; /* Reduce bottom margin */
 }
 
 .contact--address address p {
-    margin-bottom: 30px;
+    margin-bottom: 15px; /* Reduce bottom margin */
 }
 
 .contact--address address p:last-child {
@@ -1463,7 +1463,7 @@ body.scrolled .header--navbar {
     border: 1px solid #303030;
     width: 35px;
     padding: 5px 0;
-    margin-right: 10px;
+    margin-right: 8px; /* Reduce right margin */
     text-align: center;
 }
 
