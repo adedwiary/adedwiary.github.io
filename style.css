@@ -817,8 +817,7 @@ body.scrolled .header--navbar {
     padding: 12px 15px;
     font-size: 14px;
     line-height: 18px;
-    -webkit-transition: color .25s ease, background-color .25s ease-in-out;
-            transition: color .25s ease, background-color .25s ease-in-out;
+    transition: color .25s ease, background-color .25s ease-in-out;
 }
 
 .gallery-filter-menu a:hover,
@@ -828,9 +827,14 @@ body.scrolled .header--navbar {
 }
 
 /* 6.2. GALLERY ITEM */
+.gallery-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3-column layout */
+    gap: 20px;
+}
+
 .gallery-item {
     position: relative;
-    margin-bottom: 0;
     padding: 15px;
     background-color: transparent;
     border: none;
@@ -839,7 +843,8 @@ body.scrolled .header--navbar {
 
 .gallery-item img {
     width: 100%;
-    height: auto;
+    aspect-ratio: 16 / 9; /* 16:9 aspect ratio for images */
+    object-fit: cover;
 }
 
 .gallery--case-study {
@@ -850,13 +855,11 @@ body.scrolled .header--navbar {
     font-size: 14px;
     padding: 6px 10px;
     right: 25px;
-    -webkit-transition: opacity .25s ease-in-out;
-            transition: opacity .25s ease-in-out;
+    transition: opacity .25s ease-in-out;
 }
 
 .gallery-item:hover .gallery--case-study {
     opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 }
 
 .gallery-overlay {
@@ -869,16 +872,13 @@ body.scrolled .header--navbar {
     background: rgba(159, 156, 151, 0.8);
     padding: 15px;
     text-align: center;
-    -webkit-transition: opacity .25s ease-in-out;
-            transition: opacity .25s ease-in-out;
+    transition: opacity .25s ease-in-out;
     opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     overflow: hidden;
 }
 
 .gallery-item:hover .gallery-overlay {
     opacity: 1;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 .gallery-overlay h2 {
@@ -896,11 +896,8 @@ body.scrolled .header--navbar {
     background: transparent;
     border: 1px solid #fff;
     font-weight: 500;
-    border-radius: 0;
-    outline: 0;
     color: #fff;
-    -webkit-transition: .25s;
-            transition: .25s;
+    transition: .25s;
     text-transform: uppercase;
 }
 
@@ -915,26 +912,23 @@ body.scrolled .header--navbar {
     position: absolute;
     top: -15px;
     right: -30px;
-    display: block;
     width: 80px;
     height: 50px;
     padding-top: 27px;
     color: #fff;
     background-color: #303030;
-    -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
+    transform: rotate(45deg);
     font-size: 14px;
     line-height: 0;
     font-weight: 700;
 }
 
 .gallery-overlay .icon-link:before {
-    -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg);
+    transform: rotate(-45deg);
     display: block;
 }
 
-/* X.X. GALLERY MODAL */
+/* 6.3. GALLERY MODAL */
 .gallery--details .modal-body {
     text-align: center;
 }
@@ -961,6 +955,18 @@ body.scrolled .header--navbar {
     margin: 30px 0;
 }
 
+/* Responsiveness */
+@media (max-width: 768px) {
+    .gallery-items {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .gallery-items {
+        grid-template-columns: 1fr; /* 1 column for small screens */
+    }
+}
 /*------------------------------------*\
     7. FEEDBACK AREA
 \*------------------------------------*/
