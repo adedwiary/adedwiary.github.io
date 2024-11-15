@@ -1486,22 +1486,22 @@ body.scrolled .header--navbar {
 
 .contact--social li a {
     display: block;
-    width: 35px;
-    margin: 18px 0;
-    padding: 6px 0;
+    width: 35px;               /* Square width to match .contact--address */
+    height: 35px;              /* Square height to match .contact--address */
+    padding: 5px 0;            /* Center the icon vertically */
     color: #303030;
     border: 1px solid #303030;
-    font-size: 14px;
+    font-size: 20px;           /* Font size to match .contact--address */
     text-align: center;
-    -webkit-transition: color .25s ease, background-color .25s ease-in-out, border-color .25s ease;
-            transition: color .25s ease, background-color .25s ease-in-out, border-color .25s ease;
+    line-height: 25px;         /* Align icon content vertically */
+    transition: color 0.25s ease, background-color 0.25s ease-in-out, border-color 0.25s ease;
 }
 
 .contact--social li a:hover,
 .contact--social li a:focus {
     color: #fff;
-    border: 1px solid #303030;
-    background: #303030;
+    background-color: #303030;
+    border-color: #303030;
 }
 
 /* 11.3. CONTACT SOCIAL */
