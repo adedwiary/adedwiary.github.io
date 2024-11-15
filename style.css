@@ -266,8 +266,9 @@ p:last-child {
 }
 
 .btn--primary {
+    color: #303030;
     border-color: #303030;
-    background-color: #303030;
+    background-color: transparent;
 }
 
 /* 1.6. DATEPICKER */
