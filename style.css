@@ -637,6 +637,27 @@ body.scrolled .header--navbar {
     margin-top: 22px;
 }
 
+
+/*------------------------------------*\
+    4. ABOUT AREA
+\*------------------------------------*/
+#about {
+    padding: 80px 0;
+}
+
+#about h3 {
+    font-weight: 300;
+    margin-top: 0;
+}
+
+#about p {
+    margin: 25px auto;
+}
+
+#about a.btn {
+    margin-top: 10px;
+}
+
 /* 4.1. ABOUT PROGRESS BARS */
 .about--progress-items h4 {
     font-size: 16px;
