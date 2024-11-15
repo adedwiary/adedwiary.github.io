@@ -1465,6 +1465,8 @@ body.scrolled .header--navbar {
     padding: 5px 0;
     margin-right: 8px; /* Reduce right margin */
     text-align: center;
+    line-height: 1; /* Reduce the line height to bring icons closer */
+    vertical-align: middle; /* Align icons vertically in the middle */
 }
 
 /* 11.2. CONTACT SOCIAL */
