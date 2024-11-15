@@ -843,7 +843,7 @@ body.scrolled .header--navbar {
 
 .gallery-item img {
     width: 100%;
-    aspect-ratio: 16 / 9; /* 16:9 aspect ratio for images */
+    aspect-ratio: 4 / 3; /* 4:3 aspect ratio for images */
     object-fit: cover;
 }
 
