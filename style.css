@@ -238,40 +238,36 @@ p:last-child {
 .btn--default, .btn--primary {
     display: inline-block;
     padding: 16px 30px 15px 29px;
-    color: transparent; /* Text color is transparent before hover */
-    border: 2px solid #303030; /* Border color is #303030 */
+    color: #fff;
+    border: 2px solid transparent;
     border-radius: 0;
     font-size: 18px;
     line-height: 22px;
     font-weight: 700;
-    background-color: #303030; /* Background color is #303030 */
-    text-decoration: none; /* Remove underline from the button */
-    transition: all 0.3s ease; /* Smooth transition for changes */
 }
 
-/* Default state: transparent text, background #303030 */
-.btn--default {
-    color: transparent; /* Text is transparent */
-    border-color: #303030; /* Border color is #303030 */
-    background-color: #303030; /* Background color is #303030 */
-}
-
-/* Primary button default state */
-.btn--primary {
-    color: transparent; /* Text is transparent */
-    border-color: #303030; /* Border color is #303030 */
-    background-color: #303030; /* Background color is #303030 */
-}
-
-/* Hover and Focus state: text color #303030, background transparent */
 .btn--default:hover, .btn--primary:hover,
 .btn--default:focus, .btn--primary:focus {
-    color: #303030; /* Text color becomes #303030 */
-    background-color: transparent; /* Background becomes transparent */
-    border-color: #303030; /* Border color remains #303030 */
+    color: #fff;
     box-shadow: none;
     text-decoration: none;
     outline: 0;
+}
+
+.btn--default {
+    color: #303030;
+    border-color: #303030;
+    background-color: transparent;
+}
+
+.btn--default:hover,
+.btn--default:focus {
+    color: #303030;
+}
+
+.btn--primary {
+    border-color: #303030;
+    background-color: #303030;
 }
 
 /* 1.6. DATEPICKER */
