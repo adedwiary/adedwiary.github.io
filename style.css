@@ -606,7 +606,7 @@ body.scrolled .header--navbar {
 
 /* 3.1. BANNER CONTENT */
 .banner--content {
-    width:40%;
+    width: 40%;
     color: #303030;
 }
 
@@ -633,8 +633,22 @@ body.scrolled .header--navbar {
     outline: 0;
 }
 
+/* 3.1.1. BUTTON IN BANNER */
 .banner--content .btn--default {
     margin-top: 22px;
+    color: transparent; /* Font color is transparent */
+    background-color: black; /* Background color is black */
+    border: 2px solid black; /* Border color is black */
+    padding: 12px 24px; /* Adjust padding for better button size */
+    text-decoration: none; /* Remove underline from link */
+    display: inline-block; /* Ensures proper box model */
+    transition: all 0.3s ease; /* Smooth transition for color changes */
+}
+
+/* Hover effect for button */
+.banner--content .btn--default:hover {
+    color: black; /* Font color turns black on hover */
+    background-color: transparent; /* Background turns transparent on hover */
 }
 
 /*------------------------------------*\
