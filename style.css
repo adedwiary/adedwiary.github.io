@@ -266,9 +266,8 @@ p:last-child {
 }
 
 .btn--primary {
-    color: #303030;
     border-color: #303030;
-    background-color: transparent;
+    background-color: #303030;
 }
 
 /* 1.6. DATEPICKER */
@@ -636,26 +635,6 @@ body.scrolled .header--navbar {
 
 .banner--content .btn--default {
     margin-top: 22px;
-}
-
-/*------------------------------------*\
-    4. ABOUT AREA
-\*------------------------------------*/
-#about {
-    padding: 80px 0;
-}
-
-#about h3 {
-    font-weight: 300;
-    margin-top: 0;
-}
-
-#about p {
-    margin: 25px auto;
-}
-
-#about a.btn {
-    margin-top: 10px;
 }
 
 /* 4.1. ABOUT PROGRESS BARS */
