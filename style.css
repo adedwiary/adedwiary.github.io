@@ -1137,7 +1137,7 @@ body.scrolled .header--navbar {
     float: right;
     width: 100%;
     height: 50px !important;
-    padding: 0 65px 0 15px;
+    padding: 0 35px 0 15px;
     border: 1px solid #303030;
     overflow: hidden;
 }
@@ -1168,7 +1168,7 @@ body.scrolled .header--navbar {
 
 /* 8.3. POST ITEMS */
 .post-item {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .post--img a {
@@ -1344,6 +1344,14 @@ body.scrolled .header--navbar {
 
 .post--details .post-content blockquote {
     border-color: #303030;
+}
+
+.post-meta-desc {
+    clear: both;
+}
+
+.post--details .modal-body {
+    padding: 20px 30px; 
 }
 
 /*------------------------------------*\
